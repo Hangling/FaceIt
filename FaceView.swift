@@ -90,7 +90,8 @@ class FaceView: UIView {
     override func draw(_ rect: CGRect) {
         
         //Swift3.0 UIColor property명 변경
-        UIColor.blue.set()
+//        UIColor.blue.set()
+        UIColor.black.set()
         pathForCircleCenterdAtPoint(minPoint: skullCenter, withRadius: skullRadius).stroke()
         pathForeye(eye: .Left).stroke()
         pathForeye(eye: .Right).stroke()
